@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- White background -->
+  <rect width="100" height="100" fill="white" rx="20"/>
+  <!-- Pink circle -->
+  <circle cx="50" cy="50" r="42" fill="#f9a8d4"/>
+  <!-- Dog line art - white stroke only -->
+  <g fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="50" cy="42" r="14"/>
+    <!-- Left ear (floppy) -->
+    <path d="M38 34 Q30 22 28 34 Q28 38 36 38"/>
+    <!-- Right ear (floppy) -->
+    <path d="M62 34 Q70 22 72 34 Q72 38 64 38"/>
+    <!-- Eyes -->
+    <circle cx="44" cy="40" r="2" fill="white"/>
+    <circle cx="56" cy="40" r="2" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="50" cy="47" rx="3" ry="2.5" fill="white"/>
+    <!-- Mouth -->
+    <path d="M50 49.5 Q47 53 44 51"/>
+    <path d="M50 49.5 Q53 53 56 51"/>
+    <!-- Tongue -->
+    <path d="M50 49.5 Q50 55 48 57" stroke-width="1.8"/>
+    <!-- Body -->
+    <path d="M42 55 Q40 62 38 72"/>
+    <path d="M58 55 Q60 62 62 72"/>
+    <!-- Front legs -->
+    <path d="M38 72 Q36 78 34 82"/>
+    <path d="M42 72 Q42 78 42 82"/>
+    <!-- Back legs -->
+    <path d="M58 72 Q58 78 58 82"/>
+    <path d="M62 72 Q64 78 66 82"/>
+    <!-- Tail (wagging) -->
+    <path d="M62 62 Q72 54 76 48" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="-5 62 62;10 62 62;-5 62 62" dur="0.6s" repeatCount="indefinite"/>
+    </path>
+    <!-- Back line -->
+    <path d="M42 55 Q50 53 58 55 Q60 60 60 72 Q50 74 40 72 Q38 60 42 55"/>
+    <!-- Paws -->
+    <circle cx="34" cy="83" r="2"/>
+    <circle cx="42" cy="83" r="2"/>
+    <circle cx="58" cy="83" r="2"/>
+    <circle cx="66" cy="83" r="2"/>
+  </g>
+</svg>
